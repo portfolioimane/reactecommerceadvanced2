@@ -1,0 +1,22 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: url('/src/images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-content {
+    padding: 100px 0;
+}
+
+.product-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
